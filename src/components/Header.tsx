@@ -1,22 +1,38 @@
-// src/components/Header.tsx
+"use client"; // Para interatividade no cliente
+
+import { useState } from "react";
+
 export default function Header() {
+
+    const [activeSection, setActiveSection] = useState("home");
+
     return (
         <>
             <header className="controls">
                 {/* Botões de navegação - controls */}
-                <div className="control active-btn" data-id="home" title="Home">
+                {/* Botão Home */}
+                <div 
+                className={`control ${activeSection === "home" ? "active-btn" : ""}`} data-id="home" title="Home" onClick={() => setActiveSection("home")}>
                     <i className="fas fa-home"></i>
                 </div>
-                <div className="control" data-id="about" title="About">
+                {/* Botão About */}
+                <div 
+                className={`control ${activeSection === "about" ? "active-btn" : ""}`} data-id="about" title="About" onClick={() => setActiveSection("about")}>
                     <i className="fas fa-user"></i>
                 </div>
-                <div className="control" data-id="portfolio" title="Portfolio">
+                {/* Botão Portfolio */}
+                <div 
+                className={`control ${activeSection === "portfolio" ? "active-btn" : ""}`} data-id="portfolio" title="Portfolio" onClick={() => setActiveSection("portfolio")}>
                     <i className="fas fa-briefcase"></i>
                 </div>
-                <div className="control" data-id="blogs" title="Blogs">
+                {/* Botão Blogs */}
+                <div 
+                className={`control ${activeSection === "blogs" ? "active-btn" : ""}`} data-id="blogs" title="Blogs" onClick={() => setActiveSection("blogs")}>
                     <i className="far fa-newspaper"></i>
                 </div>
-                <div className="control" data-id="contact" title="Contact">
+                {/* Botão Contact */}
+                <div 
+                className={`control ${activeSection === "contact" ? "active-btn" : ""}`} data-id="contact" title="Contact" onClick={() => setActiveSection("contact")}>
                     <i className="fas fa-envelope-open"></i>
                 </div>
             </header>

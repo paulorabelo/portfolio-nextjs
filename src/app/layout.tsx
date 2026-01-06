@@ -1,7 +1,6 @@
-// src/app/layout.tsx
 import type { Metadata } from "next";
 import "./globals.scss";
-import Header from "@/components/Header"; // Importamos o seu componente
+import Header from "@/components/Header"; // Componente de navegação
 
 export const metadata: Metadata = {
   title: "Paulo Rabelo - Portfolio",
@@ -15,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      {/* Adicionei o link do FontAwesome que seu site antigo usa */}
+      {/* FontAwesome que o site antigo usa */}
       <head>
         <link 
           rel="stylesheet" 
