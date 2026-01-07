@@ -1,6 +1,6 @@
 export default function HomeSection() {
 return (
-    <section className="container header" id="home">
+    <section className="container header active" id="home">
       {/* home vai aqui */}
     <div className="header-content">
             <div className="left-header">

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.scss";
-import Header from "@/components/Header"; // Componente de navegação
 
 export const metadata: Metadata = {
   title: "Paulo Rabelo - Portfolio",
@@ -22,8 +21,8 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased">
-        {/* O Header fica aqui, fixo para todo o site */}
-        <Header />
+        {/* Tudo aqui fica fixo para todo o site */}
+        
         
         {/* O children é onde entra o conteúdo de cada página (page.tsx) */}
         {children}

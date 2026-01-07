@@ -1,6 +1,6 @@
 export default function AboutSection() {
 return (
-    <section className="container about" id="about">
+    <section className="container about active" id="about">
         {/* about vai aqui */}
         <div className="main-title">
                 <div className="us-en">
