@@ -1,6 +1,11 @@
-export default function HomeSection() {
+// isActive prop indica se a seção está ativa
+interface HomeProps {
+    isActive: boolean;
+}
+
+export default function HomeSection({ isActive }: HomeProps) {
 return (
-    <section className="container header active" id="home">
+    <section className={`container header ${isActive ? "active" : ""}`} id="home">
       {/* home vai aqui */}
     <div className="header-content">
             <div className="left-header">

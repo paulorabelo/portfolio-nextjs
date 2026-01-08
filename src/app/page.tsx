@@ -20,8 +20,8 @@ return (
     />
 
     {/* Renderizando as seções com base na seção ativa */}
-    {activeSection === "home" && <HomeSection />}
-    {activeSection === "about" && <AboutSection />}
+    {activeSection === "home" && <HomeSection isActive={true} />}
+    {activeSection === "about" && <AboutSection isActive={true} />}
     </main>
         );
 }

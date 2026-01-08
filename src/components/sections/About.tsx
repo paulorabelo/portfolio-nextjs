@@ -1,6 +1,11 @@
-export default function AboutSection() {
+
+interface AboutProps {
+    isActive: boolean;
+}
+
+export default function AboutSection({ isActive }: AboutProps) {
 return (
-    <section className="container about active" id="about">
+    <section className={`container about ${isActive ? "active" : ""}`} id="about">
         {/* about vai aqui */}
         <div className="main-title">
                 <div className="us-en">
