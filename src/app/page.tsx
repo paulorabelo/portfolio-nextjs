@@ -4,6 +4,7 @@ import { useState } from "react";
 import Header from "@/components/Header";
 import HomeSection from "@/components/sections/Home";
 import AboutSection from "@/components/sections/About";
+import PortfolioSection from "@/components/sections/Portfolio";
 // Importe as outras seções conforme for criando
 
 export default function Page() {
@@ -22,6 +23,7 @@ return (
     {/* Renderizando as seções com base na seção ativa */}
     {activeSection === "home" && <HomeSection isActive={true} />}
     {activeSection === "about" && <AboutSection isActive={true} />}
+    {activeSection === "portfolio" && <PortfolioSection isActive={true} />}
     </main>
         );
 }

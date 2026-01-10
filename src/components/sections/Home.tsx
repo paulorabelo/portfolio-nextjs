@@ -11,7 +11,7 @@ return (
             <div className="left-header">
                 <div className="h-shape"></div>
                 <div className="image">
-                    <img src="img/paulo-2024.webp" alt=""/>
+                    <img src="/img/paulo-2024.webp" alt=""/>
                 </div>
             </div>
             <div className="right-header">
