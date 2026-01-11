@@ -32,7 +32,7 @@ return (
     {activeSection === "about" && <AboutSection isActive={true} />}
     {activeSection === "portfolio" && <PortfolioSection isActive={true} />}
     {activeSection === "blogs" && <BlogsSection isActive={true} />}
-    {activeSection === "contact" && <ContactSection isActive={true} />}
+    {activeSection === "contact" && <ContactSection isActive={true} t={t.contact} />}
     </main>
         );
 }
