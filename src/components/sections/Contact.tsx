@@ -74,7 +74,7 @@ export default function ContactSection({isActive}: ContactSectionProps){
                         </div>
                     </div>
                     <div className="right-contact">
-                        {/* Removi o onSubmit por enquanto para não dar erro de função inexistente */}
+                        {/* removido o onSubmit por enquanto para não dar erro de função inexistente */}
                         <form id="contact-form" className="new-cont-form">
                             <input type="hidden" name="contact_number" />
                             <div className="input-control i-c-2">

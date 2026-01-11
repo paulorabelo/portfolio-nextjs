@@ -1,0 +1,24 @@
+{
+    "en": {
+        "home": {
+            "greeting": "Hi, I'm",
+            "name": "Paulo Rabelo.",
+            "description": "I'm a Java developer working on web or mobile apps."
+        },
+        "contact": {
+            "title": "Contact",
+            "subtitle": "Me"
+        }
+    },
+    "pt": {
+        "home": {
+            "greeting": "Olá, sou",
+            "name": "Paulo Rabelo.",
+            "description": "Sou um desenvolvedor Java para aplicações web ou mobile."
+        },
+        "contact": {
+            "title": "Contate",
+            "subtitle": "Me"
+        }
+    }
+}
