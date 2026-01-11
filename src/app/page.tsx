@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import HomeSection from "@/components/sections/Home";
 import AboutSection from "@/components/sections/About";
 import PortfolioSection from "@/components/sections/Portfolio";
+import BlogsSection from "@/components/sections/Blogs";
 // Importe as outras seções conforme for criando
 
 export default function Page() {
@@ -24,6 +25,7 @@ return (
     {activeSection === "home" && <HomeSection isActive={true} />}
     {activeSection === "about" && <AboutSection isActive={true} />}
     {activeSection === "portfolio" && <PortfolioSection isActive={true} />}
+    {activeSection === "blogs" && <BlogsSection isActive={true} />}
     </main>
         );
 }
