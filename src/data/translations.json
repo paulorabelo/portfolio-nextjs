@@ -7,7 +7,15 @@
         },
         "contact": {
             "title": "Contact",
-            "subtitle": "Me"
+            "span": "Me",
+            "bgText": "Contact",
+            "h4": "Contact me here",
+            "desc": "I currently live in São Paulo (Capital) and to contact me use my social media, cell phone (WhatsApp) and email.",
+            "formName": "YOUR NAME",
+            "formEmail": "YOUR EMAIL",
+            "formSubject": "ENTER SUBJECT",
+            "formMsg": "Message Here...",
+            "btn": "Submit"
         }
     },
     "pt": {
@@ -18,7 +26,15 @@
         },
         "contact": {
             "title": "Contate",
-            "subtitle": "Me"
+            "span": "Me",
+            "bgText": "Contato",
+            "h4": "Contate-me aqui",
+            "desc": "Atualmente moro em São Paulo (Capital) e para entrar em contato comigo utilize minhas redes sociais, celular (WhatsApp) e e-mail.",
+            "formName": "SEU NOME",
+            "formEmail": "SEU E-MAIL",
+            "formSubject": "ASSUNTO",
+            "formMsg": "Mensagem aqui...",
+            "btn": "Enviar"
         }
     }
 }

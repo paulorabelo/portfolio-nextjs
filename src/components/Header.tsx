@@ -4,9 +4,11 @@
 interface HeaderProps {
     activeSection: string;
     changeSection: (section: string) => void;
+    currentLang: string;
+    toggleLang: () => void;
 }
 
-export default function Header({ activeSection, changeSection }: HeaderProps) {
+export default function Header({ activeSection, changeSection, currentLang, toggleLang }: HeaderProps) {
 
     return (
         <>
